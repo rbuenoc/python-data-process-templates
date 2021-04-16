@@ -1,0 +1,4 @@
+pyyaml
+pymongo
+boto3
+pandas

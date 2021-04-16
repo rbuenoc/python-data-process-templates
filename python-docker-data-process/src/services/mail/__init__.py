@@ -1,0 +1,1 @@
+from .send_failure import run as send_failure_mail

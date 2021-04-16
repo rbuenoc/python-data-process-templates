@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+
+# VS Code
+.vscode
+
+# Configuration
+config*.yml
+!config.template.yml
+
+# Environment
+.env
+.venv
+
+# Application
+stage
+logs

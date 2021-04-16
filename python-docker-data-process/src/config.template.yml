@@ -1,0 +1,17 @@
+# Environment: ENV
+default:
+  APP_DEBUG: false
+  APP_ENTITIES_DATA_FILEPATH: 'resources/data/entities.json'
+
+  MONGODB_HOST: ''
+  MONGODB_USERNAME: ''
+  MONGODB_PASSWORD: ''
+  MONGODB_USE_SSL: true
+  MONGODB_CA_CERT: 'resources/certificates/rds-combined-ca-bundle.pem'
+  MONGODB_DATABASE: ''
+  MONGODB_DEFAULT_COLLECTION: ''
+
+  SMTP_HOST: ''
+  SMTP_PORT: 25
+  SMTP_USERNAME: ''
+  SMTP_PASSWORD: ''

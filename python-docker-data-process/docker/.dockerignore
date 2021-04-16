@@ -1,0 +1,11 @@
+__pycache__/
+
+.vscode
+
+config*.yml
+
+stage
+*.log
+
+.gitignore
+README.md
