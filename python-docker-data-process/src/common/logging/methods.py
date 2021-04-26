@@ -39,7 +39,7 @@ def log_warning(message, name=None, *args, **kwargs):
 
 
 def _transform_message(message):
-    if isinstance(message, dict):
+    if isinstance(message, dict) or isinstance(message, list):
         msg = json_dumps(message)
     else:
         msg = message
