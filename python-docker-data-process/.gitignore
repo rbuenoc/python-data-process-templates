@@ -9,7 +9,6 @@ config*.yml
 !config.template.yml
 
 # Environment
-.env
 .venv
 
 # Application
