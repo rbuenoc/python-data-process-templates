@@ -14,4 +14,4 @@ config*.yml
 
 # Application
 stage
-logs
+*.log
